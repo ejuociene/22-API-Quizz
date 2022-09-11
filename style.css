@@ -67,7 +67,7 @@ body {
 }
 
 .begin {
-	font-family: 'Luckiest Guy', cursive;
+	font-family: var(--font-fun);
 	color: white;
 	margin-top: 50px;
 	font-size: 48px;
@@ -165,7 +165,7 @@ body {
 }
 
 .new_highscore {
-	font-family: 'Luckiest Guy', cursive;
+	font-family: var(--font-fun);
 	color: #ee9b00;
 	margin-top: 50px;
 	font-size: 48px;
@@ -251,5 +251,21 @@ body {
 	}
 	.success {
 		font-size: 20px;
+	}
+	.game_end_text {
+		font-size: 40px;
+	}
+	.game_end_score_text {
+		margin-top: 80px;
+		font-size: 36px;
+	}
+	.new_highscore {
+		font-size: 40px;
+	}
+	.play_again_btn {
+		font-size: 20px;
+		width: 180px;
+		height: 80px;
+		margin-top: 50px;
 	}
 }
