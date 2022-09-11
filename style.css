@@ -270,5 +270,7 @@ body {
 	}
 	.choice:hover {
 		background-color: #ee9b00;
+		color: black;
+		transform: none;
 	}
 }
