@@ -14,13 +14,14 @@ body {
 	flex-direction: column;
 	align-items: center;
 	width: 500px;
-	min-height: 750px;
+	min-height: 600px;
 	margin: 60px auto;
 	background-color: #0a9396;
 	border: 10px solid #94d2bd;
 	color: white;
 	border-radius: 15px;
 }
+
 .start {
 	margin: 170px 30px 50px 30px;
 	display: flex;
@@ -212,4 +213,43 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+		margin: 30px auto;
+	}
+	.start {
+		margin: 100px 80px 50px 80px;
+	}
+	.start_heading {
+		font-size: 40px;
+	}
+	.difficulty_text {
+		font-size: 20px;
+	}
+	.difficulty_btn {
+		width: 100px;
+		font-size: 18px;
+	}
+	.begin {
+		font-size: 40px;
+	}
+	.score_text {
+		padding: 20px;
+	}
+	.question_count_text {
+		padding: 20px;
+	}
+	.question_text {
+		font-size: 20px;
+	}
+	.choice {
+		font-size: 18px;
+		padding: 15px;
+	}
+	.success {
+		font-size: 20px;
+	}
 }
