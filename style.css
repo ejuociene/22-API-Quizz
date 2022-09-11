@@ -268,4 +268,10 @@ body {
 		height: 80px;
 		margin-top: 50px;
 	}
+	.choice:active {
+		background-color: #ee9b00;
+	}
+	.choice:hover {
+		background-color: #ff6d00;
+	}
 }
