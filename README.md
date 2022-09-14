@@ -1,13 +1,11 @@
-# Quizz game
-
-##A fun quizz game:
+# Multiple choice quizz game:
 - Choose difficulty level (Easy, Medium, Hard)
 - Varying questions from multiple categories;
 - Multiple choice answers;
 - Correct answer highlighted after each question;
 - Highscore saved to Local Storage so you can track your best games.
 
-##Built with
+## Built with
 - JavaScript
 - Open Trivia Database (Opentdb) API
 - Using and storing data in Local Storage
