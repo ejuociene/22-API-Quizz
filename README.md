@@ -1,5 +1,5 @@
 # Quizz game:
-Multiple choice fun quizz game:
+Multiple choice quizz game:
 - Choose difficulty level (Easy, Medium, Hard)
 - Varying questions from multiple categories
 - Multiple choice answers
